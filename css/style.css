@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    padding: 80px; 
+    color: #111619; 
+    background: #DCD9D4;
+    position: relative; 
+    font-size: 1rem; 
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%;
+}  
+
+header #img{
+    flex: 50%; 
+} 
+
+header #text-header{ 
+    text-align: center;
+    flex: 50%;
+}
+
+nav{
+    overflow: hidden;  
+    background: #333;   
+} 
+
+nav a{
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none;
+} 
+
+nav a.right{
+    float: right;
+} 
+
+nav a:hover{
+    background: #ddd; 
+    color: black;
+} 
+
+#datos-personales{
+    border-collapse: collapse;
+    width: 100%; 
+    margin-top: 15px;
+} 
+
+#datos-personales td, #datos-personales th{
+    border: 1px solid #ddd;
+    padding: 8px; 
+    text-align: center
+}  
+
+#datos-personales th{
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    background-color: #560000; 
+    color: #fdffff;
+}
+
+#datos-personales td{
+    background: #d1c5c5;
+} 
+
+#skills-software{
+    border-collapse: collapse;
+    width: 100%; 
+    margin-top: 15px;
+} 
+
+#skills-software th, #skills-software td{
+    border: 1px solid #ddd;
+    padding: 8px; 
+    text-align: center
+}  
+#skills-software th{
+    padding-top: 12px; 
+    padding-bottom: 12px;  
+    padding-left: 20px;
+    background-color: #560000; 
+    color: #fdffff;
+}
+
+#skills-software td{
+    background: #d1c5c5;
+    text-align: justify; 
+    text-justify: inter-word;
+}   
+
+.padding{
+    width: 60% !important; 
+} 
+
+#skills-tech{
+    border-collapse: collapse;
+    width: 100%; 
+    margin-top: 15px;
+} 
+
+#skills-tech th, #skills-tech td{
+    border: 1px solid #ddd;
+    padding: 8px; 
+    text-align: center
+}  
+#skills-tech th{
+    padding-top: 12px; 
+    padding-bottom: 12px;  
+    padding-left: 20px;
+    background-color: #560000; 
+    color: #fdffff;
+}
+
+#skills-tech td{
+    background: #d1c5c5;
+    text-align: justify; 
+    text-justify: inter-word;
+} 
+
+#favorite{
+    border-collapse: collapse;
+    width: 100%; 
+    margin-top: 15px;
+} 
+
+#favorite th, #favorite td{
+    border: 1px solid #ddd;
+    padding: 8px; 
+    text-align: center
+}  
+#favorite th{
+    padding-top: 12px; 
+    padding-bottom: 12px;  
+    padding-left: 20px;
+    background-color: #560000; 
+    color: #fdffff;
+}
+
+#favorite td{
+    background: #d1c5c5;
+    text-align: center; 
+    text-justify: inter-word; 
+} 
+
+.center{
+    text-align: center !important;
+} 
+
+#favorite a{
+    text-decoration: none; 
+    background: #F40D30; 
+    color: #fdfdfd; 
+    padding: 8px; 
+    border: 2px solid black;
+    text-align: center;
+} 
+
+#favorite a:hover{
+    background: #560000;
+}
+
+footer{
+    text-align: center;  
+    padding: 20px; 
+    background: #333; 
+    color: #fdfdfd; 
+} 
+
+footer a{
+    text-decoration: none; 
+    color: #fdfdfd;  
+} 
+
+li{
+    list-style: none;
+} 
+
+#bibliografy{
+    margin: 0%;
+    background: #DCD9D4; 
+}  
+
+#bibliografy a{
+    text-decoration: none;
+    color: #111619;
+} 
+
+#bibliografy li{
+    padding: 5px; 
+} 
+
+h3{
+    margin-top: 0%;
+} 
+
+ul{
+    margin-bottom: 0%;
+}
+
+
+
+
+
+
